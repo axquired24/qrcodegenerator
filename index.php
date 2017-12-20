@@ -26,8 +26,8 @@
             <h4><i class="glyphicon glyphicon-qrcode"></i> Member Manager</h4>
         </div>
         <div align="right" class="col-md-4">
-            <a href="#" class="btn btn-default">Daftar Member</a>
-            <a href="#" class="btn btn-success"><i class="glyphicon glyphicon-plus"></i> Tambah Baru</a>
+            <a href="<?php echo hl_url(); ?>" class="btn btn-default">Daftar Member</a>
+            <a href="<?php echo hl_url('?content=add'); ?>" class="btn btn-success"><i class="glyphicon glyphicon-plus"></i> Tambah Baru</a>
         </div>
     </div>
     <hr>
