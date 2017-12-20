@@ -3,5 +3,10 @@
         "illuminate/database": "v5.3",
         "endroid/qrcode": "2.5.0",
         "javiereguiluz/easyslugger": "^1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "databases/models"
+        ]
     }
 }

@@ -4,6 +4,8 @@ require "vendor/autoload.php";
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 
+date_default_timezone_set("Asia/Jakarta");
+
 $capsule = new Capsule;
 
 $capsule->addConnection([

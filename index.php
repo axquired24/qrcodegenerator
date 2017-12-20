@@ -15,6 +15,7 @@
 </head>
 <body>
 <?php
+    // bootstrap require in helper.php
     require "helper.php";
     $content = hl_getIfIsset('content');
 ?>
