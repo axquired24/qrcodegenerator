@@ -6,10 +6,16 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 
 date_default_timezone_set("Asia/Jakarta");
 
-// Static Variable
-$environtment = 'dev';
+// CHANGE THIS WITH YOUR ENVIRONTMENT - Static Variable
+
+// dev / production
+$environtment = 'production';
+
 $server_protocol = 'http';
+
 $base_url = $_SERVER['SERVER_NAME'].'/mdpmanager';
+// END static variable
+
 define('SERVER_PROTOCOL', $server_protocol);
 define('BASE_URL', $base_url);
 

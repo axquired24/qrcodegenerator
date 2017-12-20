@@ -23,11 +23,12 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-            <h4><i class="glyphicon glyphicon-qrcode"></i> Member Manager</h4>
+            <h4><i class="glyphicon glyphicon-qrcode"></i> MDP Member Manager</h4>
+            <br class="visible-xs">
         </div>
         <div align="right" class="col-md-4">
             <a href="<?php echo hl_url(); ?>" class="btn btn-default">Daftar Member</a>
-            <a href="<?php echo hl_url('?content=add'); ?>" class="btn btn-success"><i class="glyphicon glyphicon-plus"></i> Tambah Baru</a>
+            <a href="<?php echo hl_url('?content=member_add'); ?>" class="btn btn-success"><i class="glyphicon glyphicon-plus"></i> Tambah Baru</a>
         </div>
     </div>
     <hr>
